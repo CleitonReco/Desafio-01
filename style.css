@@ -1,0 +1,15 @@
+*{
+    background-color: #303030;
+    font-family: "inter";
+}
+#titulo{
+    width: 1030px;
+    color: white;
+    margin-top: 206px;
+    margin-left: 62px;  
+}
+#subTitulo{
+    color: white;
+    margin-left: 60px;
+    font-weight: 400;
+}
