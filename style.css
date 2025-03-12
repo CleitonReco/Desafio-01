@@ -3,13 +3,13 @@ body{
     padding: 0px;
     font-family: 'inter';
 }
-#tituloSuperior{    
+#tituloSuperior{ 
     font-size: 50px;
     padding-top: 100px;
     margin-top: 0px;
     margin-left: 72px;
 }
-#tituloInferior{
+#tituloInferior{    
     margin-left: 70px;
 }
 #menuSuperior{    
@@ -19,6 +19,36 @@ body{
     
 }
 #menuInferior{
+    /* margin-top: 0px;
+    padding-top: 0px; */
     background-color: #eaece5;
     /* background-color: #f9f9f9; */
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 20px;
+    
+}
+.resultados{
+    text-align: left;
+    font-family: 'inter';
+    margin-left: 150px;
+    margin-top: 25px;   
+    margin-bottom: 25px;
+}
+.resultados p{
+    margin: 0px;
+}
+.resultados h1{
+    margin: 0px;
+}
+#apresentacao{
+    display: grid;
+    width: 735px;
+    height: 161px;
+    margin-top: 100px ;
+    margin-left: 75px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
 }
